@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+</head>e
+<body>
+    <h1>Form Example</h1>
+    <form action="cadastro.php" method="get">
+        <p>
+            <label for="estado">Times: </label>
+            <select name="estado" id="estado">
+                <optgroup label="Times Grandes">
+                    <option value="BFR">Botafogo</option>
+                    <option value="BAC">Bangu</option>
+                    <option value="CABJ">Boca Juniors</option>
+                </optgroup>
+
+                <optgroup label="Times Pequenos">
+                    <option value="CRF">Flamengo</option>
+                    <option value="FFC">Fluminense</option>
+                    <option value="CAP">Athlético-PR</option>
+                </optgroup>
+            </select>
+        </p>
+        <p>
+            <input type="submit" value="Enviar">
+        </p>
+    </form>
+</body>
+</html>
